@@ -106,7 +106,7 @@ def create_network(network_input, n_vocab):
     model.add(Activation('softmax'))
     model.compile(loss='categorical_crossentropy', optimizer='adam')
     
-    model.load_weights('lofi-hip-hop-weights-improvement-100-0.6290.hdf5')
+    #model.load_weights('lofi-hip-hop-weights-improvement-100-0.6290.hdf5')
 
     return model
 
